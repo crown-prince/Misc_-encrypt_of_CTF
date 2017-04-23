@@ -98,4 +98,8 @@ ADFGVX密码实际上就是ADFGX密码的扩充升级版，一样具有ADFGX密�
     G | x k r 3 c v
     V | s 5 z w 7 b
     X | j 9 u t i 8
+ 
+#### 8.JSfuck
+JSFuck 可以让你只用 6 个字符[ ]( ) ! +来编写 JavaScript 程序
+
 
