@@ -69,3 +69,33 @@ CTF中脑洞密码题(非现代加密方式)一般都是各种古典密码的变
         8.JSfuck<br>
         9.jother<br>
         10.brainfuck编程语言<br>
+
+### 0x01 正文
+
+##### 18.ADFGX和ADFGVX密码
+ADFGX密码(ADFGX Cipher)是结合了改良过的Polybius方格替代密码与单行换位密码的矩阵加密密码，使用了5个合理的密文字母：A，D，F，G，X，这些 <br>
+字母之所以这样选择是因为当转译成摩尔斯电码(ADFGX密码是德国军队在一战发明使用的密码)不易混淆，目的是尽可能减少转译过程的操作错误。  <br>
+
+加密矩阵示例：  <br>
+
+       A  D  F  G   X
+      ----------------
+    A | p  h  q  g   m 
+    D | e  a  y  n   o 
+    F | f  d  x  k   r
+    G | c  v  s  z   w 
+    X | b  u  t  i/j l
+
+ADFGVX密码实际上就是ADFGX密码的扩充升级版，一样具有ADFGX密码相同的特点，加密过程也类似，不同的是密文字母增加了V，使得可以再使用10数字来替换明文  <br>
+
+加密矩阵示例：  <br>
+
+      A D F G V X
+      -------------
+    A | p h 0 q g 6
+    D | 4 m e a 1 y
+    F | l 2 n o f d
+    G | x k r 3 c v
+    V | s 5 z w 7 b
+    X | j 9 u t i 8
+
