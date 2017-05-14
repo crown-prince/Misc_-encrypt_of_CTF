@@ -90,10 +90,11 @@ CTF中脑洞密码题(非现代加密方式)一般都是各种古典密码的变
 
    密文：Teucbonojmsvrhlzdghqikrwfxupoeteayo <br>
    
-   2. 密文：T_ysK9_5rhk__uFMt}3El{nu@E （注意最后有一个空格） <br>
-      用三位解密：Th3_kEy_ls_{Kun9Fu_M@5tEr}  <br>
-
-  （栅栏密码本身有一个潜规则，就是组成栅栏的字母一般不会太多。（一般不超过30个，也就是一、两句话） ） <br>
+ 2.密文：T_ysK9_5rhk__uFMt}3El{nu@E <br>
+   明文：Th3_kEy_ls_{Kun9Fu_M@5tEr} 
+   
+   
+   
 
 
 ### 替换加密:
