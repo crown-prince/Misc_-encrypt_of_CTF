@@ -77,14 +77,15 @@ CTF中脑洞密码题(非现代加密方式)一般都是各种古典密码的变
 
 栅栏密码(Rail-fence Cipher)就是把要加密的明文分成N个一组，然后把每组的第1个字符组合，每组第2个字符组合...每组的第N(最后一个分组可能 <br>
 不足N个)个字符组合，最后把他们全部连接起来就是密文，这里以2栏栅栏加密为例。 <br>
-1.明文：The quick brown fox jumps over the lazy dog <br>
-&nbsp&nbsp去空格：Thequickbrownfoxjumpsoverthelazydog <br>
-&nbsp&nbsp分组：Th eq ui ck br ow nf ox ju mp so ve rt he la zy do g<br>
-&nbsp&nbsp第一组：Teucbonojmsvrhlzdg <br>
-&nbsp&nbsp第二组：hqikrwfxupoeteayo <br>
-&nbsp&nbsp密文：Teucbonojmsvrhlzdghqikrwfxupoeteayo <br>
-&nbsp&nbsp2.密文：T_ysK9_5rhk__uFMt}3El{nu@E <br>
-&nbsp&nbsp明文：Th3_kEy_ls_{Kun9Fu_M@5tEr} 　 <br> 
+1.
+明文：The quick brown fox jumps over the lazy dog <br>
+去空格：Thequickbrownfoxjumpsoverthelazydog <br>
+分组：Th eq ui ck br ow nf ox ju mp so ve rt he la zy do g<br>
+第一组：Teucbonojmsvrhlzdg <br>
+第二组：hqikrwfxupoeteayo <br>
+密文：Teucbonojmsvrhlzdghqikrwfxupoeteayo <br>
+密文：T_ysK9_5rhk__uFMt}3El{nu@E <br>
+明文：Th3_kEy_ls_{Kun9Fu_M@5tEr} 　 <br> 
    
 ### 替换加密:
 
