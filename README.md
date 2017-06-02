@@ -57,8 +57,8 @@ CTF中脑洞密码题(非现代加密方式)一般都是各种古典密码的变
  
     其他有趣的机械密码:<br>
         1.恩尼格玛密码
- 
-    代码混淆加密:<br>
+        2.serpent(蛇)加密
+    代码混淆加密:<br>
         1.asp混淆加密
         2.php混淆加密
         3.css/js混淆加密
@@ -136,7 +136,12 @@ ADFGVX密码实际上就是ADFGX密码的扩充升级版，一样具有ADFGX密�
     G | x k r 3 c v
     V | s 5 z w 7 b
     X | j 9 u t i 8
- 
+
+#### 2.serpent(蛇)加密
+serpent加密是一种分组加密算法 <br>
+解密网站：http://serpent.online-domain-tools.com/ <br>
+
+
 #### 8.JSfuck
 JSFuck 可以让你只用 6 个字符[ ]( ) ! +来编写 JavaScript 程序
 
